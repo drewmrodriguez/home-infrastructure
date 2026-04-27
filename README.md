@@ -1,4 +1,4 @@
-# 🖥️ Homelab
+# - Homelab
 
 A personal infrastructure lab built to develop and demonstrate hands-on skills in networking, virtualization, and systems administration. This lab serves as a living environment for testing configurations, self-hosting services, and preparing for professional IT and network engineering roles.
 
@@ -6,15 +6,13 @@ A personal infrastructure lab built to develop and demonstrate hands-on skills i
 
 ---
 
-## 📐 Network Overview
-
-> ⚠️ *Diagram coming soon — built with draw.io*
+## - Network Overview
 
 The lab is segmented into multiple VLANs managed by pfSense, with traffic isolation enforced between zones. A managed switch handles inter-VLAN routing at Layer 2, while pfSense acts as the firewall and gateway.
 
 ---
 
-## 🗂️ Infrastructure Summary
+## - Infrastructure Summary
 
 ### Networking
 
@@ -49,7 +47,7 @@ The lab is segmented into multiple VLANs managed by pfSense, with traffic isolat
 
 ---
 
-## 🔒 VLAN Segmentation
+## - VLAN Segmentation
 
 The network is divided into isolated segments to enforce least-privilege traffic flow and practice real-world network security concepts.
 
@@ -88,7 +86,7 @@ homelab/
 
 ---
 
-## 🛠️ Skills Demonstrated
+## - Skills Demonstrated
 
 - **Network segmentation** — VLAN design and firewall rule enforcement with pfSense
 - **Virtualization** — VM and LXC management on Proxmox VE (Dell OptiPlex 7050)
@@ -98,7 +96,7 @@ homelab/
 
 ---
 
-## 🚀 Goals & Roadmap
+## - Goals & Roadmap
 
 - [ ] Add network topology diagram
 - [ ] Document pfSense firewall ruleset
@@ -110,9 +108,8 @@ homelab/
 
 ---
 
-## 📬 Contact
+## - Contact
 
 **Drew** — Cloud & Network Engineering student | Mobile, AL
-[LinkedIn](#) · [GitHub](https://github.com/yourusername)
 
 > *This lab is actively maintained and updated as new technologies and configurations are explored.*
