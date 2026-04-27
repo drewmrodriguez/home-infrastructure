@@ -32,7 +32,7 @@ Pi-hole: Proxmox VMNetwork-wide DNS ad blocking and local DNS resolution
 Jellyfin: Proxmox VMSelf-hosted media server
 Home Assistant: Proxmox VMHome automation and IoT device management
 
-🔒 VLAN Segmentation
+- VLAN Segmentation
 The network is divided into isolated segments to enforce least-privilege traffic flow and practice real-world network security concepts.
 (e.g., 10) Management Hypervisor and infrastructure access
 (e.g., 20) Servers Proxmox VMs Pi-hole, Jellyfin, Home Assistant
